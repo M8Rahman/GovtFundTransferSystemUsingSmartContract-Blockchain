@@ -78,5 +78,4 @@ Ensure the following are installed on your system:
 ## License
 This project is licensed under the MIT License.
 
----
-For any queries, contact [Your Email/LinkedIn/GitHub].
+
