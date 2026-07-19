@@ -127,7 +127,7 @@ flowchart TD
 The implementation is provided in:
 
 ```text
-Updated- USAspending_GAN_Lightweight_Extended_DPoS.ipynb
+USAspending_GAN_Lightweight_Extended_DPoS-Final.ipynb
 ```
 
 The notebook is organized into 24 executable blocks covering package installation, dataset loading, preprocessing, GAN training, classification, blockchain simulation, metric calculation, visualization, and result export.
