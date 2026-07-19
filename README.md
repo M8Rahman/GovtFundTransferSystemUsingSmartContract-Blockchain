@@ -65,20 +65,9 @@ Ensure the following are installed on your system:
    - Import the generated accounts from Ganache.
    - Set up a custom RPC using the Ganache network details.
 
-## Usage
-- Government officials can allocate and monitor fund distribution.
-- Auditors can verify fund usage transparently.
-- Citizens can view fund allocation records for accountability.
 
-## Future Enhancements
-- **Integration with IPFS** for document storage.
-- **Multi-Signature Wallets** for fund approvals.
-- **Machine Learning** to detect fraudulent activities.
 
-## License
-This project is licensed under the MIT License.
-
-## USAspending.gov Risk Analysis and Lightweight Extended DPoS Simulation
+## Risk Analysis and Lightweight Extended DPoS Simulation using USAspending.gov Dataset
 
 This project presents a Google Colab–based research prototype for transparent, accountable, and data-driven government fund management. It combines USAspending.gov transaction data, machine learning, Generative Adversarial Network (GAN)–based class balancing, simulated smart-contract operations, and a lightweight Extended Delegated Proof-of-Stake (DPoS) blockchain.
 
@@ -582,15 +571,20 @@ Minor numerical differences may still occur across TensorFlow versions, Colab ha
 
 ---
 
+## Usage
+- Government officials can allocate and monitor fund distribution.
+- Auditors can verify fund usage transparently.
+- Citizens can view fund allocation records for accountability.
+
+---
+
+
 ## Research Limitations
 
 - The blockchain and smart contracts are Python simulations rather than deployed Ethereum contracts.
 - Gas values are predefined experimental estimates and do not represent live network fees.
 - Digital signatures are simulated using deterministic hashes rather than asymmetric cryptography.
 - Delegate stake, reputation, and availability values are synthetically generated.
-- The proxy-risk label indicates statistical irregularity and is not a ground-truth fraud label.
-- The current experiment uses one stratified train-test split and does not use cross-validation.
-- The transparency portal is exported as a dataframe and CSV file; no production web interface is included.
 - The model should not be used to accuse individuals or organizations of misconduct without independent auditing and verified evidence.
 
 ---
@@ -599,13 +593,8 @@ Minor numerical differences may still occur across TensorFlow versions, Colab ha
 
 - Implement Solidity smart contracts for project registration and fund transfer.
 - Deploy contracts using an Ethereum-compatible test network.
-- Add cryptographic wallets and role-based authorization.
 - Add multi-signature approval for high-value transactions.
 - Store supporting documents using IPFS or another distributed storage system.
-- Build a React-based public transparency dashboard.
-- Replace proxy labels with auditor-verified fraud or anomaly annotations.
-- Compare GAN balancing with SMOTE, ADASYN, and class-weighted learning.
-- Add k-fold cross-validation and external validation datasets.
 - Integrate explainable AI methods such as SHAP and LIME.
 - Add temporal anomaly detection and graph-based transaction analysis.
 - Evaluate privacy-preserving or permissioned blockchain deployment.
@@ -613,27 +602,6 @@ Minor numerical differences may still occur across TensorFlow versions, Colab ha
 
 ---
 
-## Ethical and Responsible Use
 
-This prototype is intended for academic research, system evaluation, and decision support. Machine-learning predictions should be reviewed by qualified auditors and public-finance experts. A high-risk prediction must not be interpreted as proof of fraud, corruption, or illegal activity.
 
----
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Suggested Citation
-
-When using this implementation in academic work, cite the associated research paper, dataset source, and software repository. Replace the placeholder below with the final publication information:
-
-```bibtex
-@article{government_fund_blockchain,
-  title   = {Blockchain-Based Government Fund Management with GAN-Assisted Risk Analysis and Lightweight Extended DPoS},
-  author  = {Author Name(s)},
-  journal = {Journal or Conference Name},
-  year    = {2026}
-}
-```
